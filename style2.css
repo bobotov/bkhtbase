@@ -1,0 +1,138 @@
+
+body{
+    color: white;
+    background: black;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.header img{
+    position: absolute;
+    
+}
+
+#bkht::before{
+    content: url(img/swa.heic);
+    position: absolute;
+    
+
+}
+
+#lgbt{
+    margin-left: 200px;
+    font-family: 'Carter One', cursive;
+    position: relative;
+}
+
+ul {
+    float: left;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+li {
+
+    display: inline-block;
+    float: left;
+    margin: 10px;
+    position: relative;
+    font-size: 25px;
+    font-family: 'Carter One', cursive;
+
+}
+
+
+#run {
+    float: right;
+    height: 400px;
+}
+
+
+
+.linko {
+    border-bottom: 2px white solid;
+}
+li::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1.5px;
+    background: white;
+
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 250ms ease-in;
+
+}
+li:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+.bor{
+    border-bottom: 2px white solid;
+    margin-top: 200px;
+    position: relative;
+}
+
+#map{
+
+    width: 1400px;
+    margin-top: 60px;
+}
+.diviosn{
+    font-family: 'Grenze', serif;
+    font-size: 40px;
+    line-height: -40px;
+
+}
+.jager {
+    float: right;
+    text-align: center;
+    margin-top: -430px;
+    font-size: 30px;
+}
+#bk1{
+    float: right;
+    height: 300px;
+    position: relative;
+
+}
+
+.yuf-1{
+    font-family: 'Grenze', serif;
+    font-size: 40px;
+    text-align: right;
+
+    float: right;
+}
+#uf {
+    float: left;
+    margin-left: -270px;
+    margin-top: -300px;
+}
+.nagger{
+    font-family: 'Grenze', serif;
+    font-size: 40px;
+    line-height: -40px;
+    margin-top: 900px;
+}
+
+body .eye{
+    margin-left: 40%;
+    align-items: center;
+}
+
+
+
+
+.credits{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+}
+#sik {
+    max-width: 100px;
+}

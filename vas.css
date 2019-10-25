@@ -1,0 +1,19 @@
+.bodbod{
+    color: white;
+    align-items: center;
+    text-align: center;
+    height: 700px;
+    width: 1300px;
+    background-color: rgba(0, 0, 0, 0.281);
+    
+
+}
+html{
+    background-image: url(/img/bay.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    word-break: break-all;
+ 
+}

@@ -1,0 +1,16 @@
+body{
+    background-image: url(/img/f2jauxue2qt21.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.c1 ul{
+    float: left;
+}
+.c1 li{
+    height: 100px;
+    float: left;
+    width: 200px;
+    background-color: blue;
+}

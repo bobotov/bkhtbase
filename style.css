@@ -1,0 +1,239 @@
+body{
+    color: white;
+    background: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.header img{
+    position: absolute;
+    
+}
+
+#bkht::before{
+    content: url(img/swa.heic);
+    position: absolute;
+    z-index: -1;
+
+}
+
+#lgbt{
+    margin-left: 200px;
+    font-family: 'Carter One', cursive;
+    position: relative;
+}
+
+ul {
+    float: left;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+li {
+    
+    display: inline-block;
+    float: left;
+    margin: 10px;
+    position: relative;
+    font-size: 25px;
+    font-family: 'Carter One', cursive;
+
+}
+
+.linko {
+    border-bottom: 2px white solid;
+}
+li::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1.5px;
+    background: white;
+
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 250ms ease-in;
+
+}
+li:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+.bor{
+    border-bottom: 2px white solid;
+    margin-top: 200px;
+    position: relative;
+    z-index: -1;
+}
+.center{
+
+    background-color: rgba(10, 10, 10, 0.452);
+
+
+    transition-property: background;
+    transition-duration: 4s;
+
+    width: 800px;
+    height: 360px;
+    
+    margin-top: 100px;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    float: left;
+    top: 180px;
+    left: 50%;
+    font-size: 24px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.center:hover{
+    background-color: rgba(0, 0, 0, 0.76);
+
+}
+
+
+.mili {
+    background: url(./img/gify.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    z-index: -1;
+}
+
+.uh {
+    width: 400px;
+}
+.uh h1{
+    color:white;
+    font-family: 'Lato', sans-serif;
+    align-self: left;
+    margin-left: 20px;
+    border-bottom: white 1px solid;
+    position: relative;
+}
+#gae {
+    width: 600px;
+    float: right;
+    position: relative;
+    z-index: -1;
+}
+.niggaer h2{
+    margin-left: 20px;
+}
+
+.nigar {
+
+
+    top: 0px;
+    
+}
+#nigarc {
+    margin-left: 1050px;
+    margin-top: 10px;
+    height: 230px;
+    position: fixed;
+    border: 5px solid transparent;
+    -webkit-border-image: url(./img/border.gif) 30 round;
+    -o-border-image: url(./img/border.gif;);
+    border-image: url(./img/border.gif) 30 round;
+}
+audio {
+    display: none;
+}
+
+#nigimg{
+    width: 670px;
+    height: 300px;
+}
+
+.bra {
+    position: relative;
+}
+.bra .bra1{
+    visibility: hidden;
+    display: inline-block;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 300px;
+    background-color: black;
+    border: blanchedalmond 2px solid;
+    width: 200px;
+    height: 40px;
+}
+.bra:hover .bra1{
+    visibility: visible;
+}
+.soru{
+    margin-left: 20px;
+    margin-top: 200px;
+}
+#adil {
+    
+    width: 600px;
+    margin-top: -200px;
+    margin-left: 10px;
+    border: rgb(133, 20, 20) 2px solid;
+    background-color: rgba(0, 0, 0, 0.103);
+    position: relative;
+
+
+    transition-property: width;
+    transition-duration: 5s;
+
+    -webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+}
+
+#adil:hover{
+    background-color: black;
+}
+@-webkit-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-moz-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-ms-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-o-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+#maldil{
+    position: relative;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.gaysex{
+    margin-top: 30px;
+    border-top: 2px solid indigo;
+    width: 800px;
+    height: 2px;
+}
+.vakanza{
+    margin-left: 20px;
+}
